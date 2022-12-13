@@ -30,7 +30,7 @@ div.container {
 }
 
 img.chicken {
-    margin-top: 10rem;
+    margin-top: 11rem;
     animation: rotating 2s linear infinite;
     animation-direction: reverse;
 }
