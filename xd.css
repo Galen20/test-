@@ -6,12 +6,33 @@ h1{
     width: 100% ;
     text-align: center ;
 
-    color: goldenrod;
+    color: blue;
     
 }
 
 p{
     padding: 2px;
+}
+
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+div.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+img.chicken {
+    margin-top: 10rem;
+    animation: rotating 2s linear infinite;
+    animation-direction: reverse;
 }
 
 /* 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 /*
